@@ -21,11 +21,9 @@ p5.RendererGL.prototype.line = function() {
 }
 
 // Loading external files (models, fonts)
-let bee = null;
 let font = null;
 function preload() {
   font = loadFont('font.otf');
-  bee = loadModel('BEE.OBJ', true);
 }
 
 // Setting up screen and flies
